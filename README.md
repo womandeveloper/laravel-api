@@ -22,7 +22,7 @@ $ php artisan db:seed
 > pass :  12345678
 > 
 
-# Ekran Görüntüleri:
+# Test:
 >'headers' => [
 >    'Accept' => 'application/json',
 >    'Authorization' => 'Bearer '. $access_token,
@@ -31,11 +31,11 @@ $ php artisan db:seed
 | Method | Link | İstek |
 | ------ | ------ | ------ |
 | Döküman | http://localhost:8000/api/documentation | ---- |
-| POST - User Register | http://localhost:8000/api/register | name, email, password |
-| POST - User Login | http://localhost:8000/api/login | email, password |
-| POST - Address Create | http://localhost:8000/api/address | detail |
-| GET -  User List | http://localhost:8000/api/users | ---- |
-| GET -  Address List | http://localhost:8000/api/address | ---- |
-| GET - Show Single Address | http://localhost:8000/api/address/{id} | ---- |
-| PUT - Address Update | http://localhost:8000/api/address/{id} | detail |
-| DELETE - Address Delete | http://localhost:8000/api/address/{id} | ---- |
+| POST | http://localhost:8000/api/register | name, email, password |
+| POST | http://localhost:8000/api/login | email, password |
+| POST | http://localhost:8000/api/address | detail |
+| GET | http://localhost:8000/api/users | ---- |
+| GET | http://localhost:8000/api/address | ---- |
+| GET | http://localhost:8000/api/address/{id} | ---- |
+| PUT | http://localhost:8000/api/address/{id} | detail |
+| DELETE | http://localhost:8000/api/address/{id} | ---- |
